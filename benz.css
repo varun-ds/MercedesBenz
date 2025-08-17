@@ -107,6 +107,12 @@ video{
     top: 30px;
 
 }
+#StickyButtons>button:nth-child(1)
+{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
 
 #models{
     background-color: white;
@@ -115,5 +121,17 @@ video{
     position: relative;
     top: -30px;
     z-index: -1;
+}
+
+#FixedButton
+{
+    background-image: url(/Images/Mercedes-Benz-White-Logo.png);
+    background-size: 90px 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    height:90px;
+    width: 90px;
 }
 
